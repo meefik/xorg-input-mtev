@@ -1,0 +1,18 @@
+This is a xserver-xorg input driver for devices supporting
+Linux Multi-Touch protocol.
+
+Author: Mika Kuoppala <mika.kuoppala at-here nokia.com>
+
+This driver is based on apple touchpad driver by Henrik Rydberg
+
+Installation howto:
+
+You need to add correct input class definitio to xorg.conf
+Look at conf/xorg.conf.section and cut paste it into your xorg.conf
+
+The kernel device driver needs to pass correct MultiTouch protocol events to
+this driver. Also note that BTN_TOUCH needs to be provided by the kernel
+driver for udev to correctly set MatchIsTouchscreen capability in xserver.
+
+
+

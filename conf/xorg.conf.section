@@ -1,0 +1,10 @@
+Section "InputClass"
+        Identifier              "internal-touchscreen"
+        MatchIsTouchScreen      "on"
+        Driver                  "mtev"
+        Option                  "Ignore" "off"
+        #Option                  "SwapAxes" "true"
+        #Option                  "InvertX" "true"
+        #Option                  "InvertY" "true"
+        #Option                  "Rotation" "1"
+EndSection

@@ -1,0 +1,14 @@
+mtev Xorg driver
+
+This driver is based heavily on a work by Hendrik Rydberg (multitouch)
+
+Usage:
+
+* Install the debian package
+
+* Restart X
+
+Enjoy!
+
+Mika Kuoppala <mika.kuoppala@nokia.com>
+

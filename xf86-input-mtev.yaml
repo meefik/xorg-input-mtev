@@ -1,0 +1,28 @@
+Name: xf86-input-mtev
+Summary: Multitouch input driver for Xserver
+Version: 0.1.13
+Release: 1
+Group: System/X Hardware Support
+License: GPLv2
+URL: http://gitorious.org/xorg-next/xf86-input-mtev
+Description: |
+    - xf86-input-mtev - This package is a multitouch Xorg input driver
+    supporting MultiTouch protocol
+
+Sources:
+    - "%{name}-%{version}.tar.gz"
+
+PkgConfigBR:
+    - xorg-server
+    - xkbfile
+    - xproto
+    - inputproto
+    - xrandr
+    - randrproto
+    - xextproto
+    - mtdev
+
+Configure: none
+
+Files:
+    - /usr/lib/xorg/modules/input/mtev.so

@@ -1,0 +1,12 @@
+Source: xserver-xorg-input-mtev
+Section: x11
+Priority: optional
+Maintainer: Mika Kuoppala <mika.kuoppala@nokia.com>
+Build-Depends: debhelper (>= 5.0.0), pkg-config, xserver-xorg-dev (>= 1.7.993), libxi-dev (>= 2:1.2.99.4+0m6),x11proto-core-dev, x11proto-input-dev, dpkg-dev (>= 1.14.17), automake, libtool, xutils-dev (>= 1:7.5~1)
+Standards-Version: 3.7.3
+
+Package: xserver-xorg-input-mtev
+Architecture: any
+Description: Multitouch XI2 input driver
+ This package is a multitouch Xorg input driver supporting MultiTouch protocol
+
