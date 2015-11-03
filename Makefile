@@ -24,7 +24,7 @@ DLIB	= usr/lib/xorg/modules/input
 # DFDI	= usr/share/hal/fdi/policy/20thirdparty
 
 INCLUDE = -I/usr/include/xorg -I/usr/include/pixman-1 $(shell pkg-config --cflags mtdev)
-OPTS	= -O2 -g -Wall -fpic
+OPTS	= -g -Wall -fpic
 
 .PHONY: all clean
 .PRECIOUS: obj/%.o
